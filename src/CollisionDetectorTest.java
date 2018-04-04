@@ -10,7 +10,7 @@ class CollisionDetectorTest {
         }
 
         System.out.println("Benchmarking sat.hasCollided() using a shell and tank...");
-        System.out.println("Using $iterations iterations\n");
+        System.out.println("Using " + iterations + " iterations\n");
 
         System.out.println("Time with maxDist: " + runTest(iterations, 15.56));
         System.out.println("Time without:      " + runTest(iterations, null));
