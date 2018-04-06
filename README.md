@@ -20,3 +20,10 @@ java CollisionDetectorTest [iterations]
 | --------------- | --------------- | ----------------- |
 | With max_dist   | 0.157 seconds   |  8.250 seconds    |
 | Without         | 0.490 seconds   | 21.800 seconds    |
+
+**10,000 iterations on a custom desktop with an AMD A10-6800K:**
+
+| Mode            | Time for Java   | Time for Python   |
+| --------------- | --------------- | ----------------- |
+| With max_dist   | 0.397 seconds   | 15.844 seconds    |
+| Without         | 0.825 seconds   | 40.617 seconds    |
